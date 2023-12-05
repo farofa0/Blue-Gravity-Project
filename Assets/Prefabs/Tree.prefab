@@ -249,6 +249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aliveTree: {fileID: 5258259347443559391}
   deadTree: {fileID: 2372973263729495969}
+  itemPrefab: {fileID: 6095780719771849127, guid: 4edd77330a0034413b39ad5388f406ca, type: 3}
+  lootID: 1
 --- !u!58 &422724758602309048
 CircleCollider2D:
   m_ObjectHideFlags: 0

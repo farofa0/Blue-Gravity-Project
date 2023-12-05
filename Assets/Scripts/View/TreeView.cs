@@ -6,8 +6,10 @@ public class TreeView : MonoBehaviour
 {
     public GameObject aliveTree;
     public GameObject deadTree;
+    public GameObject itemPrefab;
 
     private HitPoints hitPoints;
+    public int lootID = 1;
 
     void Start()
     {
@@ -23,6 +25,8 @@ public class TreeView : MonoBehaviour
             deadTree.SetActive(true);
             aliveTree.SetActive(false);
             GetComponent<Collider2D>().enabled = false;
+            itemPrefab.GetComponent<ItemPickupView>().itemId = lootID;
+            Instantiate(itemPrefab, transform);
         }
     }
 }
