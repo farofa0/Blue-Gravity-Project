@@ -140,9 +140,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 531.6923
+        y: 528
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 531.6923
+        y: 528
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,9 +182,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 487.69232
+        y: 480
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,9 +203,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 487.69232
+        y: 480
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 443.69232
+        y: 432
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,9 +245,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 443.69232
+        y: 432
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,9 +266,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 399.69232
+        y: 384
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,9 +287,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 399.69232
+        y: 384
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,9 +308,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 355.69232
+        y: 336
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,9 +329,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 355.69232
+        y: 336
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,9 +350,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 311.69232
+        y: 288
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 311.69232
+        y: 288
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,9 +392,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 267.69232
+        y: 240
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,9 +413,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 267.69232
+        y: 240
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,9 +434,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 223.6923
+        y: 192
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,9 +455,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 223.6923
+        y: 192
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,9 +476,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 179.6923
+        y: 144
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,9 +497,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 179.6923
+        y: 144
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,9 +518,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 135.6923
+        y: 96
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,9 +539,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 135.6923
+        y: 96
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,9 +560,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 91.69231
+        y: 48
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,9 +581,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 91.69231
+        y: 48
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,9 +602,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 47.692307
+        y: 0
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,9 +623,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 47.692307
+        y: 0
         width: 48
-        height: 44.307693
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,48 +635,6 @@ TextureImporter:
       bones: []
       spriteID: c87f7cb6c623244f5a3f70e23a333d98
       internalID: -1628304590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Actions_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3.6923065
-        width: 48
-        height: 44.307693
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 933a8de68464b4948872f2172683565c
-      internalID: 1608078767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Actions_25
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 3.6923065
-        width: 48
-        height: 44.307693
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5add2850e553c42278044dc463892e00
-      internalID: 811822098
       vertices: []
       indices: 
       edges: []
@@ -709,8 +667,6 @@ TextureImporter:
       Basic Charakter Actions_21: 614729794
       Basic Charakter Actions_22: -1672206349
       Basic Charakter Actions_23: -1628304590
-      Basic Charakter Actions_24: 1608078767
-      Basic Charakter Actions_25: 811822098
       Basic Charakter Actions_3: 499553121
       Basic Charakter Actions_4: 631221161
       Basic Charakter Actions_5: -1037335068
