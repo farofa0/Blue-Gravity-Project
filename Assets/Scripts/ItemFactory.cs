@@ -26,10 +26,11 @@ public static class ItemFactory
             int id = int.Parse(data[i]["id"].ToString());
             string name = data[i]["name"].ToString();
             string description = data[i]["description"].ToString();
-            string itemType = data[i]["description"].ToString();
+            string itemType = data[i]["itemType"].ToString();
             string sprite = data[i]["sprite"].ToString();
+            int value = int.Parse(data[i]["value"].ToString());
 
-            itemList.Add(new Item(id, name, description, itemType, sprite));
+            itemList.Add(new Item(id, name, description, itemType, sprite, value));
         }
 
         return itemList;

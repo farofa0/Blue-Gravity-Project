@@ -8,6 +8,11 @@ public class InventorySystem : MonoBehaviour
 	public List<InventoryItem> Inventory { get; private set; } = new List<InventoryItem>();
 	private Dictionary<Item, InventoryItem> itemDictionary = new Dictionary<Item, InventoryItem>();
 
+    public delegate void OnGetItem();
+    public static event OnGetItem onGetItem;
+
+	public int Gold { get; private set; }
+
     public static InventorySystem Instance { get; private set; }
     private void Awake()
     {
@@ -25,7 +30,7 @@ public class InventorySystem : MonoBehaviour
 	{
         if (itemDictionary.TryGetValue(item, out InventoryItem value))
         {
-			return value;
+            return value;
         }
 		return null;
     }
@@ -42,7 +47,9 @@ public class InventorySystem : MonoBehaviour
 			Inventory.Add(newItem);
 			itemDictionary.Add(item, newItem);
 		}
-	}
+
+        onGetItem?.Invoke();
+    }
 
 	public void Remove(Item item)
 	{
@@ -56,6 +63,27 @@ public class InventorySystem : MonoBehaviour
 				itemDictionary.Remove(item);
 			}
 		}
-	}
+
+        onGetItem?.Invoke();
+    }
+
+	public void BuyItem(Item item)
+	{
+        if (item.value <= Gold)
+        {
+            Gold -= item.value;
+            Add(item);
+        }
+        else
+        {
+            Debug.Log("Not enough gold");
+        }
+    }
+
+	public void SellItem(Item item)
+    {
+        Gold += item.value / 2;
+        Remove(item);
+    }
 }
 
