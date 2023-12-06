@@ -286,8 +286,8 @@ TextureImporter:
       name: CharMovement_WizardRobe_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 144
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -307,7 +307,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_8
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 48
         width: 48
         height: 48
@@ -328,7 +328,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_9
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 48
         width: 48
         height: 48
@@ -349,7 +349,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_10
       rect:
         serializedVersion: 2
-        x: 144
+        x: 96
         y: 48
         width: 48
         height: 48
@@ -370,8 +370,8 @@ TextureImporter:
       name: CharMovement_WizardRobe_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 144
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -391,7 +391,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_12
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 0
         width: 48
         height: 48
@@ -412,7 +412,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_13
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 0
         width: 48
         height: 48
@@ -433,7 +433,7 @@ TextureImporter:
       name: CharMovement_WizardRobe_14
       rect:
         serializedVersion: 2
-        x: 144
+        x: 96
         y: 0
         width: 48
         height: 48
@@ -446,6 +446,27 @@ TextureImporter:
       bones: []
       spriteID: 58d7a1f02e7dd409e9bb88d0ff289f62
       internalID: 1549449210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharMovement_WizardRobe_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705cac24d1ec348858a231a78a2f64d1
+      internalID: -2139836633
       vertices: []
       indices: 
       edges: []
@@ -468,6 +489,7 @@ TextureImporter:
       CharMovement_WizardRobe_12: -2029953683
       CharMovement_WizardRobe_13: 1101690049
       CharMovement_WizardRobe_14: 1549449210
+      CharMovement_WizardRobe_15: -2139836633
       CharMovement_WizardRobe_2: -631861210
       CharMovement_WizardRobe_3: -606991439
       CharMovement_WizardRobe_4: 491434473

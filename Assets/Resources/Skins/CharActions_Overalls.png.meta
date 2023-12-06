@@ -140,53 +140,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3c7efb081a9c4053887a8dbbd641a47
-      internalID: -838766154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharActions_Overalls_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 384
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27644a2277cb9470b89cdfab5e75b156
-      internalID: 1646376847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharActions_Overalls_2
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 336
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_3
+      name: CharActions_Overalls_1
       rect:
         serializedVersion: 2
         x: 48
@@ -207,7 +165,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_4
+      name: CharActions_Overalls_2
       rect:
         serializedVersion: 2
         x: 0
@@ -228,7 +186,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,7 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_5
+      name: CharActions_Overalls_3
       rect:
         serializedVersion: 2
         x: 48
@@ -249,7 +207,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_6
+      name: CharActions_Overalls_4
       rect:
         serializedVersion: 2
         x: 0
@@ -270,7 +228,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_7
+      name: CharActions_Overalls_5
       rect:
         serializedVersion: 2
         x: 48
@@ -291,7 +249,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_8
+      name: CharActions_Overalls_6
       rect:
         serializedVersion: 2
         x: 0
@@ -312,7 +270,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharActions_Overalls_9
+      name: CharActions_Overalls_7
       rect:
         serializedVersion: 2
         x: 48
@@ -333,7 +291,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,16 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CharActions_Overalls_0: -838766154
-      CharActions_Overalls_1: 1646376847
-      CharActions_Overalls_2: -1969717560
-      CharActions_Overalls_3: -929386156
-      CharActions_Overalls_4: 941773453
-      CharActions_Overalls_5: -1922936624
-      CharActions_Overalls_6: 1594071405
-      CharActions_Overalls_7: 194693020
-      CharActions_Overalls_8: -880631566
-      CharActions_Overalls_9: 839855665
+      CharActions_Overalls_0: -1969717560
+      CharActions_Overalls_1: -929386156
+      CharActions_Overalls_2: 941773453
+      CharActions_Overalls_3: -1922936624
+      CharActions_Overalls_4: 1594071405
+      CharActions_Overalls_5: 194693020
+      CharActions_Overalls_6: -880631566
+      CharActions_Overalls_7: 839855665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
