@@ -32,6 +32,6 @@ public class InventoryView : MonoBehaviour
             go.GetComponent<InventoryItemView>().SetItem(item);
         }
 
-        txtGold.text = InventorySystem.Instance.Gold.ToString();
+        txtGold.text = InventorySystem.Instance.Gold + "$";
     }
 }

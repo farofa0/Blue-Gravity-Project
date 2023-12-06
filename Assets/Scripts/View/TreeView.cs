@@ -18,15 +18,18 @@ public class TreeView : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Chop");
-        hitPoints.ApplyDamage(1);
-        if (hitPoints.IsDead)
+        if (collision.CompareTag("Axe"))
         {
-            deadTree.SetActive(true);
-            aliveTree.SetActive(false);
-            GetComponent<Collider2D>().enabled = false;
-            itemPrefab.GetComponent<ItemPickupView>().itemId = lootID;
-            Instantiate(itemPrefab, transform);
+            Debug.Log("Chop");
+            hitPoints.ApplyDamage(1);
+            if (hitPoints.IsDead)
+            {
+                deadTree.SetActive(true);
+                aliveTree.SetActive(false);
+                GetComponent<Collider2D>().enabled = false;
+                itemPrefab.GetComponent<ItemPickupView>().itemId = lootID;
+                Instantiate(itemPrefab, transform);
+            }
         }
     }
 }
