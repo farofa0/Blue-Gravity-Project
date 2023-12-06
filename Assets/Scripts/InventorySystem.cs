@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class InventorySystem : MonoBehaviour
 {
@@ -67,20 +68,39 @@ public class InventorySystem : MonoBehaviour
         onGetItem?.Invoke();
     }
 
-	public void BuyItem(Item item)
+    public void TryBuyItem(Item item)
+    {
+        string text;
+        if (item.value <= Gold)
+        {
+            text = "Do you want to spend " + item.value + "$ on this item?";
+        }
+        else
+        {
+            text = "You don't have enough money.";
+        }
+
+        UIController.Instance.modalWindowPanel.ShowModalWindow(text, () => BuyItem(item), null);
+    }
+
+    private void BuyItem(Item item)
 	{
         if (item.value <= Gold)
         {
             Gold -= item.value;
             Add(item);
         }
-        else
-        {
-            Debug.Log("Not enough gold");
-        }
     }
 
-	public void SellItem(Item item)
+    public void TrySellItem(Item item)
+    {
+        string text = "Are you sure you want to sell this for " + item.value/2 + "$";
+
+        UIController.Instance.modalWindowPanel.ShowModalWindow(text, () => SellItem(item), null);
+
+    }
+
+    private void SellItem(Item item)
     {
         Gold += item.value / 2;
         Remove(item);

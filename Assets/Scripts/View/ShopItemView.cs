@@ -16,6 +16,6 @@ public class ShopItemView : MonoBehaviour
 
     public void BuyItem()
     {
-        InventorySystem.Instance.BuyItem(item);
+        InventorySystem.Instance.TryBuyItem(item);
     }
 }

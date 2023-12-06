@@ -26,10 +26,7 @@ public class InteractionController : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))
         {
-            if (interactAction != null)
-            {
-                interactAction();
-            }
+            interactAction?.Invoke();
         }
     }
 }

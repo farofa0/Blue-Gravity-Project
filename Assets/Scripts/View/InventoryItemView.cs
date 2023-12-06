@@ -18,6 +18,6 @@ public class InventoryItemView : MonoBehaviour
 
     public void SellItem()
     {
-        InventorySystem.Instance.SellItem(item);
+        InventorySystem.Instance.TrySellItem(item);
     }
 }

@@ -1,4 +1,4 @@
 id,name,description,itemType,sprite,value
-1,Wood Log,,misc,woodLog,5
-2,Coin,,misc,hoe,1
+1,Wood Log,,misc,woodLog,10
+2,Coin,,misc,hoe,10
 3,Blue Hat,,hat,axe,50

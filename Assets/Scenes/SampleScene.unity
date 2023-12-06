@@ -3619,7 +3619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef7f9724697742e8915a874fed09d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1608704353}
+  txtText: {fileID: 1608704353}
   confirmButton: {fileID: 1560704066}
   cancelButton: {fileID: 462979627}
 --- !u!1 &689691686
@@ -5216,6 +5216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000747127}
   - component: {fileID: 1000747126}
+  - component: {fileID: 1000747128}
   m_Layer: 0
   m_Name: Systems
   m_TagString: Untagged
@@ -5250,6 +5251,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1000747128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000747125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703a9d27f92794ae4b5c0f6dc0636d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modalWindowPanel: {fileID: 685515910}
 --- !u!1001 &1018946611
 PrefabInstance:
   m_ObjectHideFlags: 0
