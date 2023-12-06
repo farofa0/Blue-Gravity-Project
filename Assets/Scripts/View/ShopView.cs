@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShopView : MonoBehaviour
 {
     public GameObject shopItemPrefab;
+    public int shopId = 1;
 
     private void OnEnable()
     {
@@ -13,7 +14,7 @@ public class ShopView : MonoBehaviour
             Destroy(transform.GetChild(i).gameObject);
         }
 
-        foreach (var itemId in ShopFactory.GetShop(1).itemsId)
+        foreach (var itemId in ShopFactory.GetShop(shopId).itemsId)
         {
             var go = Instantiate(shopItemPrefab, transform);
             go.GetComponent<ShopItemView>().SetItem(ItemFactory.GetItem(itemId));

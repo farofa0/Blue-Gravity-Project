@@ -18,6 +18,13 @@ public class InventoryItemView : MonoBehaviour
 
     public void SellItem()
     {
-        InventorySystem.Instance.TrySellItem(item);
+        if (UIController.Instance.shopPanel.activeInHierarchy)
+        {
+            InventorySystem.Instance.TrySellItem(item);
+        }
+        else
+        {
+            InventorySystem.Instance.TryEquipItem(item);
+        }
     }
 }

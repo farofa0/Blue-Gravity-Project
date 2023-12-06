@@ -29,8 +29,9 @@ public static class ItemFactory
             string itemType = data[i]["itemType"].ToString();
             string sprite = data[i]["sprite"].ToString();
             int value = int.Parse(data[i]["value"].ToString());
+            string animation = data[i]["animation"].ToString();
 
-            itemList.Add(new Item(id, name, description, itemType, sprite, value));
+            itemList.Add(new Item(id, name, description, itemType, sprite, value, animation));
         }
 
         return itemList;

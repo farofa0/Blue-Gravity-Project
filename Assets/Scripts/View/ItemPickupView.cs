@@ -16,7 +16,6 @@ public class ItemPickupView : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Grab item number " + item.id);
             InventorySystem.Instance.Add(item);
             Destroy(gameObject);
         }

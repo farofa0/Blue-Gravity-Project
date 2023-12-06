@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17d00467b85af4290b0ce86614036b54
+guid: e65eea700a015440da800d11b1a3edfe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,11 +136,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_0
+      name: CharActions_CowboyHat_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -150,18 +150,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70cedca274aa14609bac0cc80f0e93b0
-      internalID: -1731404255
+      spriteID: a307449df3f494eb98d608620e3b92d9
+      internalID: 1778888960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_1
+      name: CharActions_CowboyHat_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 144
+        y: 336
         width: 48
         height: 48
       alignment: 0
@@ -171,60 +171,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617203bce26d34c508baeb82e4fa50dd
-      internalID: 1868976510
+      spriteID: d9b09ca1a94ef4e1383dbaf74f5e13f5
+      internalID: -1152819136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 144
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 899fcd6222bb24c9d9841b0e5a887cfe
-      internalID: -218512602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 144
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb79f8ec593244ec79540f7bed4a9c9b
-      internalID: 2147004719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_4
+      name: CharActions_CowboyHat_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -234,18 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e83b341880ba54c8c8e0618f08a0cd47
-      internalID: 1725919010
+      spriteID: f434825dca65e4b8c900bf14992eadc4
+      internalID: 1421760874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_5
+      name: CharActions_CowboyHat_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 96
+        y: 288
         width: 48
         height: 48
       alignment: 0
@@ -255,60 +213,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce965f00054514b4ebe3a33a289f0571
-      internalID: -779364200
+      spriteID: f4b13687294c24650b56f80b7b321d3e
+      internalID: 1135529534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 551076ed287ef487b95727bef6d94d42
-      internalID: 1365096275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 96
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4e6bca12cfe64ab0bb411827282c6d9
-      internalID: 978970839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_8
+      name: CharActions_CowboyHat_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -318,18 +234,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b67682d26f64953bc479734c866707
-      internalID: -2058126566
+      spriteID: 56b512800243a405abb79b5b63b06e23
+      internalID: -391757571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_9
+      name: CharActions_CowboyHat_5
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -339,60 +255,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5387e14ff6f574c208d15beee5f470b4
-      internalID: 907374800
+      spriteID: e04cb93bb24484e9f9b560d043d896d9
+      internalID: 2079634074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 466799d1cc23d44aab73d359277d0101
-      internalID: -1460273368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3583425f947b64bf980cef72f5bcf224
-      internalID: 1639605116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_12
+      name: CharActions_CowboyHat_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -402,18 +276,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a076f94f38efd4f25b613d73bd06020d
-      internalID: 910527747
+      spriteID: 1f14e544df1ae41f881bb93544321d9b
+      internalID: -1905199508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_13
+      name: CharActions_CowboyHat_7
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -423,50 +297,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6955e6ec040904605ba720a5a2a30200
-      internalID: -279209475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b9e54d2cf15c4a03b9fdc28af52246e
-      internalID: 1157962338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e79b76ede8aa401898815930907ac19
-      internalID: -844279134
+      spriteID: 700484e9b4d7045e389cb3e8049dddd7
+      internalID: 1790613367
       vertices: []
       indices: 
       edges: []
@@ -482,22 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Basic Charakter Spritesheet_0: -1731404255
-      Basic Charakter Spritesheet_1: 1868976510
-      Basic Charakter Spritesheet_10: -1460273368
-      Basic Charakter Spritesheet_11: 1639605116
-      Basic Charakter Spritesheet_12: 910527747
-      Basic Charakter Spritesheet_13: -279209475
-      Basic Charakter Spritesheet_14: 1157962338
-      Basic Charakter Spritesheet_15: -844279134
-      Basic Charakter Spritesheet_2: -218512602
-      Basic Charakter Spritesheet_3: 2147004719
-      Basic Charakter Spritesheet_4: 1725919010
-      Basic Charakter Spritesheet_5: -779364200
-      Basic Charakter Spritesheet_6: 1365096275
-      Basic Charakter Spritesheet_7: 978970839
-      Basic Charakter Spritesheet_8: -2058126566
-      Basic Charakter Spritesheet_9: 907374800
+      CharActions_CowboyHat_0: 1778888960
+      CharActions_CowboyHat_1: -1152819136
+      CharActions_CowboyHat_2: 1421760874
+      CharActions_CowboyHat_3: 1135529534
+      CharActions_CowboyHat_4: -391757571
+      CharActions_CowboyHat_5: 2079634074
+      CharActions_CowboyHat_6: -1905199508
+      CharActions_CowboyHat_7: 1790613367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

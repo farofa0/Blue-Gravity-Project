@@ -9,11 +9,12 @@ public class TreeView : MonoBehaviour
     public GameObject itemPrefab;
 
     private HitPoints hitPoints;
+    public int hp = 5;
     public int lootID = 1;
 
     void Start()
     {
-        hitPoints = new HitPoints(5);
+        hitPoints = new HitPoints(hp);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

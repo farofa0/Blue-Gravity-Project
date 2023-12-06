@@ -12,7 +12,12 @@ public class InventorySystem : MonoBehaviour
     public delegate void OnGetItem();
     public static event OnGetItem onGetItem;
 
+    // Currency
 	public int Gold { get; private set; }
+
+    // Equipment
+    public Item Headgear { get; private set; }
+    public Item Armor { get; private set; }
 
     public static InventorySystem Instance { get; private set; }
     private void Awake()
@@ -60,7 +65,8 @@ public class InventorySystem : MonoBehaviour
 
 			if (value.stackSize == 0)
 			{
-				Inventory.Remove(value);
+                UnequipItem(item);
+                Inventory.Remove(value);
 				itemDictionary.Remove(item);
 			}
 		}
@@ -94,16 +100,56 @@ public class InventorySystem : MonoBehaviour
 
     public void TrySellItem(Item item)
     {
-        string text = "Are you sure you want to sell this for " + item.value/2 + "$";
+        if (item.itemType == "Headgear" || item.itemType == "Armor")
+        {
+            string text = "Are you sure you want to sell this for " + item.value / 2 + "$";
 
-        UIController.Instance.modalWindowPanel.ShowModalWindow(text, () => SellItem(item), null);
-
+            UIController.Instance.modalWindowPanel.ShowModalWindow(text, () => SellItem(item), null);
+        }
+        else
+        {
+            SellItem(item);
+        }
     }
 
     private void SellItem(Item item)
     {
         Gold += item.value / 2;
         Remove(item);
+    }
+
+    public void TryEquipItem(Item item)
+    {
+        if (item.itemType == "Headgear" || item.itemType == "Armor")
+        {
+            string text = "Do you want to equip this item?";
+
+            UIController.Instance.modalWindowPanel.ShowModalWindow(text, () => EquipItem(item), null);
+        }
+    }
+
+    public void EquipItem(Item item)
+    {
+        if (item.itemType == "Headgear")
+        {
+            Headgear = item;
+        }
+        else if (item.itemType == "Armor")
+        {
+            Armor = item;
+        }
+    }
+
+    public void UnequipItem(Item item)
+    {
+        if (Headgear == item)
+        {
+            Headgear = null;
+        }
+        else if (Armor == item)
+        {
+            Armor = null;
+        }
     }
 }
 

@@ -1,4 +1,12 @@
-id,name,description,itemType,sprite,value
-1,Wood Log,,misc,woodLog,10
-2,Coin,,misc,hoe,10
-3,Blue Hat,,hat,axe,50
+id,name,description,itemType,sprite,value,animation
+1,Wood Log,,misc,woodLog,10,
+2,Brown Hat,,Headgear,brownHat,50,BrownHat
+3,Cowboy Hat,,Headgear,cowboyHat,50,CowboyHat
+4,Hat,,Headgear,hat,50,Hat
+5,Overalls,,Armor,overalls,50,Overalls
+6,Shirt,,Armor,shirt,50,Shirt
+7,Shirt 2,,Armor,shirt2,50,Shirt2
+8,Wizard Hat,,Headgear,wizardHat,50,WizardHat
+9,Wizard Robe,,Armor,wizardRobe,50,WizardRobe
+10,Better Wood Log,,misc,woodLog2,20,
+11,Even Better Wood Log,,misc,woodLog3,40,
