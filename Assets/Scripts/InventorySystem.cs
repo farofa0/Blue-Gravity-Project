@@ -12,8 +12,11 @@ public class InventorySystem : MonoBehaviour
     public delegate void OnGetItem();
     public static event OnGetItem onGetItem;
 
+    public delegate void OnEquipItem();
+    public static event OnEquipItem onEquipItem;
+
     // Currency
-	public int Gold { get; private set; }
+    public int Gold { get; private set; }
 
     // Equipment
     public Item Headgear { get; private set; }
@@ -138,6 +141,7 @@ public class InventorySystem : MonoBehaviour
         {
             Armor = item;
         }
+        onEquipItem?.Invoke();
     }
 
     public void UnequipItem(Item item)

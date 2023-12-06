@@ -8,9 +8,36 @@ public class SkinView : MonoBehaviour
     public SpriteRenderer headgear;
     public SpriteRenderer armor;
 
-    private void Update()
+    private Sprite[] headgearMovementSprites;
+    private Sprite[] headgearActionSprites;
+    private Sprite[] armorMovementSprites;
+    private Sprite[] armorActionSprites;
+
+    private void OnEnable()
     {
-        // TODO: Remove resources.load from update
+        InventorySystem.onEquipItem += SetCurrentSkin;
+    }
+
+    private void OnDisable()
+    {
+        InventorySystem.onEquipItem -= SetCurrentSkin;
+    }
+
+    public void SetCurrentSkin()
+    {
+        if (InventorySystem.Instance.Headgear != null)
+            headgearMovementSprites = Resources.LoadAll<Sprite>("Skins/CharMovement_" + InventorySystem.Instance.Headgear.animation);
+        if (InventorySystem.Instance.Headgear != null)
+            headgearActionSprites = Resources.LoadAll<Sprite>("Skins/CharActions_" + InventorySystem.Instance.Headgear.animation);
+
+        if (InventorySystem.Instance.Armor != null)
+            armorMovementSprites = Resources.LoadAll<Sprite>("Skins/CharMovement_" + InventorySystem.Instance.Armor.animation);
+        if (InventorySystem.Instance.Armor != null)
+            armorActionSprites = Resources.LoadAll<Sprite>("Skins/CharActions_" + InventorySystem.Instance.Armor.animation);
+    }
+
+    private void FixedUpdate()
+    {
         if (baseSprite.sprite.name.Contains("CharMovement"))
         {
             string spriteName = baseSprite.sprite.name;
@@ -19,8 +46,7 @@ public class SkinView : MonoBehaviour
 
             if (InventorySystem.Instance.Headgear != null)
             {
-                var sprites = Resources.LoadAll<Sprite>("Skins/CharMovement_" + InventorySystem.Instance.Headgear.animation);
-                headgear.sprite = sprites[spriteId];
+                headgear.sprite = headgearMovementSprites[spriteId];
             }
             else
             {
@@ -29,8 +55,7 @@ public class SkinView : MonoBehaviour
 
             if (InventorySystem.Instance.Armor != null)
             {
-                var sprites = Resources.LoadAll<Sprite>("Skins/CharMovement_" + InventorySystem.Instance.Armor.animation);
-                armor.sprite = sprites[spriteId];
+                armor.sprite = armorMovementSprites[spriteId];
             }
             else
             {
@@ -45,8 +70,7 @@ public class SkinView : MonoBehaviour
 
             if (InventorySystem.Instance.Headgear != null)
             {
-                var sprites = Resources.LoadAll<Sprite>("Skins/CharActions_" + InventorySystem.Instance.Headgear.animation);
-                headgear.sprite = sprites[spriteId];
+                headgear.sprite = headgearActionSprites[spriteId];
             }
             else
             {
@@ -55,8 +79,7 @@ public class SkinView : MonoBehaviour
 
             if (InventorySystem.Instance.Armor != null)
             {
-                var sprites = Resources.LoadAll<Sprite>("Skins/CharActions_" + InventorySystem.Instance.Armor.animation);
-                armor.sprite = sprites[spriteId];
+                armor.sprite = armorActionSprites[spriteId];
             }
             else
             {
