@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public static class ShopFactory
 {
@@ -24,9 +25,16 @@ public static class ShopFactory
         for (int i = 0; i < data.Count; i++)
         {
             int shopId = int.Parse(data[i]["shopId"].ToString());
-            List<int> itemsId = data[i]["itemsId"].ToString().Replace("\"", "")  // Remove double quotes
-                                             .Select(c => int.Parse(c.ToString()))
-                                             .ToList();
+
+            List<int> itemsId = new List<int>();
+            string[] numbers = data[i]["itemsId"].ToString().Replace("\"", "").Split(';');
+            foreach (string number in numbers)
+            {
+                if (int.TryParse(number, out int intValue))
+                {
+                    itemsId.Add(intValue);
+                }
+            }
 
             itemList.Add(new Shop(shopId, itemsId));
         }
