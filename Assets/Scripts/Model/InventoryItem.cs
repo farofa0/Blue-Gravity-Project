@@ -1,6 +1,4 @@
-﻿using System;
-
-public class InventoryItem
+﻿public class InventoryItem
 {
 	public Item item { get; private set; }
 	public int stackSize { get; private set; }
